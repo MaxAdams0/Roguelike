@@ -1,0 +1,7 @@
+# Godot 4+ specific ignores
+.godot/
+.import/
+.mono/
+*.translation
+export_presets.cfg
+# As suggested by https://docs.godotengine.org/en/stable/tutorials/best_practices/version_control_systems.html
