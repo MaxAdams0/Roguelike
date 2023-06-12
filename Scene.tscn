@@ -5,7 +5,7 @@
 [ext_resource type="Script" path="res://Scripts/CharacterController.cs" id="2_0i4wp"]
 
 [sub_resource type="RectangleShape2D" id="1"]
-size = Vector2(29, 25)
+size = Vector2(14, 14)
 
 [node name="World" type="Node2D"]
 
@@ -33,7 +33,6 @@ vframes = 2
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Player"]
 texture_filter = 1
-position = Vector2(-0.5, 3.5)
 shape = SubResource("1")
 
 [node name="Camera2D" type="Camera2D" parent="Player"]
